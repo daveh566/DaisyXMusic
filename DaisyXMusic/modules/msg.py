@@ -21,57 +21,57 @@ from DaisyXMusic.config import PROJECT_NAME
 from DaisyXMusic.config import SUPPORT_GROUP
 from DaisyXMusic.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+      START_MSG = "**HELLO 👋 [{}](tg://user?id={})!**\n\n🤖 I AM A BOT FOR PLAYING MUSIC IN THE VOICE CHATS IN TELEGRAM GROUPS & CHANNELS.\n\n✅ SEND ME /help FOR MORE INFO."
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**HEY  WELCOME 😊 BACK TO {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {PROJECT_NAME} PLAYS MUSIC IN TELEGRAM GROUPS VCS AND PM
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ ASSISTANT'S NAME >> @{ASSISTANT_NAME}\n\nClick NEXT FOR INSTRUCTIONS**
 """,
 
 f"""
-**Setting up**
+**SETTING UP**
 
-1) Make bot admin (Group and in channel if use cplay)
-2) Start a voice chat
-3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+✓ MAKE BOT ADMIN (GROUP AND IN CHANNEL IF USE CPLAY)
+✓ START A VOICE CHAT
+✓ TRY /play [song name] FOR THE FIRST TIME (ADMIN)
+*) IF USERBOT JOINED ENJOY MUSIC, IF NOT ADD @{ASSISTANT_NAME} TO YOUR GROUP 😁 AND RETRY
 
-**For Channel Music Play**
-1) Make me admin of your channel 
-2) Send /userbotjoinchannel in linked group
-3) Now send commands in linked group
+**FOR CHANNEL MUSIC PLAY**
+✓ MAKE ME ADMIN OF YOUR CHANNEL 
+✓ SEND /userbotjoinchannel IN LINKED GROUP
+✓ NOW SEND COMMANDS IN LINKED GROUP 😁
 """,
 f"""
-**Commands**
+**COMMANDS**
 
-**=>> Song Playing 🎧**
+**=>> SONG PLAYING 🎧**
 
-- /play: Play the requestd song
-- /play [yt url] : Play the given yt url
-- /play [reply yo audio]: Play replied audio
-- /dplay: Play song via deezer
-- /splay: Play song via jio saavn
-- /ytplay: Directly play song via Youtube Music
+- /play: PLAY THE REQUESTD SONG
+- /play [yt url] : PLAY THE GIVEN YT URL
+- /play [reply yo audio]: PLAY REPLIED AUDIO
+- /dplay: PLAY SONG VIA DEEZER
+- /splay: PLAY SONG VIA JIO SAAVN
+- /ytplay: DIRECTLY PLAY SONG VIA YOUTUBE MUSIC
 
-**=>> Playback ⏯**
+**=>> PLAYBACK ⏯**
 
-- /player: Open Settings menu of player
-- /skip: Skips the current track
-- /pause: Pause track
-- /resume: Resumes the paused track
-- /end: Stops media playback
-- /current: Shows the current Playing track
+- /player: OPEN SETTINGS MENU OF PLAYER
+- /skip: SKIPS THE CURRENT TRACK
+- /pause: PAUSE TRACK
+- /resume: RESUMES THE PAUSED TRACK
+- /end: STOPS MEDIA PLAYBACK
+- /current: SHOWS THE CURRENT PLAYING TRACK
 - /playlist: Shows playlist
 
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
 """,
 
 f"""
-**=>> Channel Music Play 🛠**
+**=>> CHANNEL MUSIC PLAY 🛠**
 
 ⚪️ For linked group admins only:
 
@@ -99,14 +99,14 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 """,
 
 f"""
-**=>> More tools 🧑‍🔧**
+**=>> MORE TOOLS 🧑‍🔧**
 
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 """,
 f"""
-**=>> Song Download 🎸**
+**=>> SONG DOWNLOAD 🎸**
 
 - /video [song mame]: Download video song from youtube
 - /song [song name]: Download audio song from youtube
@@ -120,7 +120,7 @@ f"""
 """,
 
 f"""
-**=>> Commands for Sudo Users ⚔️**
+**=>> COMMANDS FOR SUDO USERS ⚔️**
 
  - /userbotleaveall - remove assistant from all chats
  - /broadcast <reply to message> - globally brodcast replied message to all chats
